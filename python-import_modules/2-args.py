@@ -2,6 +2,7 @@
 
 import sys
 
+
 def print_args():
 
     length = (len(sys.argv))
@@ -19,6 +20,7 @@ def print_args():
             value = str(sys.argv[i])
             print("{}: {}".format(i, value))
         return
+
 
 if __name__ == "__main__":
     print_args()
