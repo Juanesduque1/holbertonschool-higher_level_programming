@@ -17,7 +17,7 @@ def print_args():
         print("{} arguments:".format(length - 1))
         for i in range(1, length):
             value = str(sys.argv[i])
-            print(i, ":", value)
+            print("{}: {}".format(i, value))
         return
 
 if __name__ == "__main__":
