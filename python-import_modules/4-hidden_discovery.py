@@ -5,5 +5,9 @@ import hidden_4
 
 if __name__ == "__main__":
 
-    print(dir(hidden_4))
+    directory = dir(hidden_4)
+
+    for i in range(len(directory)):
+        if directory[i][1] != "_":
+            print(directory[i])
 
