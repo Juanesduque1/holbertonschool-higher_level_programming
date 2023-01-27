@@ -10,4 +10,3 @@ if __name__ == "__main__":
     for i in range(len(directory)):
         if directory[i][1] != "_":
             print(directory[i])
-
