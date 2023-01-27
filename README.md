@@ -1,6 +1,6 @@
-# Holberton School Higher-level Programming
+# Holberton School High-level Programming
 
-This repository contains projects coded in the higher-level programming module for the **Software Engineering studies** at **Holberton School**.
+This repository contains projects coded in the higher-level programming module for the **Software Engineering studies** at **Holberton School**. It was made to understand object oriented programming. Each project in this repository holds code that illustrates an essential concept of programming, especially for Python programming language.
 
 ## Projects
 All of the following folders are projects done during this module:
