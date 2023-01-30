@@ -2,5 +2,7 @@
 
 
 def print_matrix_integer(matrix=[[]]):
-    for line in matrix:
-        print("{}".format(' '.join(map(str, line))))
+    for i in matrix:
+        for j in i:
+            print("{:d}".format(j), end=" ")
+        print()
