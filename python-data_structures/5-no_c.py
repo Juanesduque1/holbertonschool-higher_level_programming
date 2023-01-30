@@ -2,6 +2,4 @@
 
 
 def no_c(my_string):
-    new_string = my_string.replace('c', '')
-    new_string = new_string.replace('C', '')
-    return new_string
+    return my_string.translate({ord(i): None for i in 'cC'})
