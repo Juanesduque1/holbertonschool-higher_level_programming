@@ -6,8 +6,8 @@ def roman_to_int(roman_string):
     sum = 0
     for i in range(len(roman_string) -1, -1, -1):
             result = rnumerals[roman_string[i]]
-            if 3 * result < sum: 
+            if 3 * result < sum:
                 sum = sum - result
-            else: 
+            else:
                 sum = sum + result
     return sum
