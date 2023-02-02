@@ -12,7 +12,7 @@ Project done during my **Software Engineering studies** at **Holberton School**.
 | [`4-list_division.py`](./4-list_division.py) | Python function that divides element by element 2 lists. |
 | [`5-raise_exception.py`](./5-raise_exception.py) | Python function that raises a type exception. |
 | [`6-raise_exception_msg.py`](./6-raise_exception_msg.py) | Python function that raises a name exception with a message. |
-| [`100-safe_print_integer_err.py`](./100-safe_print_integer_err.py) | Python Python function that prints an integer with type-checking in `"{:d}".format())` format. |
+| [`100-safe_print_integer_err.py`](./100-safe_print_integer_err.py) | Python Python function that prints an integer with type-checking in `"{:d}".format()` format. |
 | [`101-safe_function.py`](./101-safe_function.py) | Python function that executes a function safely. |
 
 ## Authors
