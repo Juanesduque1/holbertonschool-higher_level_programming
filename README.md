@@ -8,6 +8,9 @@ All of the following folders are projects done during this module:
 * [`Python - Hello, World`](./python-hello_world)
 * [`Python - if/else, loops, functions`](./python-if_else_loops_functions)
 * [`Python - import & modules`](./python-import_modules)
+* [`Python - Data Structures: Lists, Tuples`](./python-data_structures)
+* [`Python - More Data Structures: Set, Dictionary`](./python-more_data_structures)
+* [`Python - Exceptions`](./python-exceptions)
 
 ## Author
 
