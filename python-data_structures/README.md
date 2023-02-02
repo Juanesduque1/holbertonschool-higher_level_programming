@@ -1,6 +1,6 @@
 # Python - Data Structures: Lists, Tuples
 
-Project done during my Software Engineering studies at Holberton School. It aims to learn about how the different data types work in Python, specifically lists and tuples.
+Project done during my **Software Engineering studies** at **Holberton School**. It aims to learn about how the different data types work in Python, specifically lists and tuples.
 
 ## Files
 | Filename | Description |
