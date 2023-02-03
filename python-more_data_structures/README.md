@@ -18,6 +18,9 @@ Project done during my **Software Engineering studies** at **Holberton School**.
 | [`10-best_score.py`](./10-best_score.py) | Python function that returns a key with the biggest integer value. |
 | [`11-mutiply_list_map.py`](./11-multiply_list_map.py) | Python function that returns a list with all values multiplied by a number. without using loops. |
 | [`12-roman_to_int.py`](./12-roman_to_int.py) | Python function that converts a Roman number to an integer. |
+| [`100-weight_average.py`](./100-weight_average.py) | Function that returns the weighted average of all integers tuple. |
+| [`101-square_matrix_map.py`](./101-square_matrix_map.py) | Function that computes the square value of all integers of a matrix using `map`. |
+| [`102-complex_delete.py`](./102-complex_delete.py) | Function that deletes keys with a specific value in a dictionary. |
 
 ## Authors
 
