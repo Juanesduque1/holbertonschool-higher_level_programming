@@ -11,7 +11,7 @@ class Square:
         """
         self.size = size
 
-    #PROPERTY
+#PROPERTY
     @property
     def size(self):
         """
@@ -19,7 +19,7 @@ class Square:
         """
         return self.__size
 
-    #SETTER
+#SETTER
     @size.setter
     def size(self, value):
         """
@@ -31,7 +31,7 @@ class Square:
             raise ValueError("size must be >= 0")
         self.__size = value
 
-    # REGULAR METHODS
+#REGULAR METHODS
     def area(self):
         """
         Returns area of the square
