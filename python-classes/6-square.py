@@ -37,13 +37,13 @@ class Square:
         Returns position of the square
         """
         return self.__position
-    
+
     @position.setter
     def position(self, value):
         """
         Allows to see the position of the square
         """
-        if len(value) != 2:
+        if len(value) != 2 or type(value) is not tuple:
             raise TypeError("position must be a tuple of 2 positive integers")
         self.__position = value
 
