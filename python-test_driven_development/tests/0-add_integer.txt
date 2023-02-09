@@ -1,5 +1,42 @@
 ===============================
- Test cases from 0
+ Test cases for task 0
 ===============================
 
->>>add_integer = __import__('0-add_integer').add_integer
+>>> add_integer(1, 2)
+3
+
+>>> add_integer = __import__('0-add_integer').add_integer
+
+>>> add_integer(1, -2)
+-1
+
+>>> add_integer(1.4, 2)
+3
+
+>>> add_integer("hello", 5)
+Traceback (most recent call last):
+...
+TypeError: a must be integer
+
+>>> add_integer(5, "hello")
+Traceback (most recent call last):
+...
+TypeError: b must be integer
+
+>>> add_integer(float('inf'), 4)
+Traceback (most recent call last):
+...
+OverflowError: cannot convert float infinity to integer
+
+>>> add_integer(float('NaN'), 5)
+Traceback (most recent call last):
+...
+ValueError: cannot convert float NaN to integer
+
+>>> add_integer(5)
+103
+
+>>> add_integer()
+Traceback (most recent call last):
+...
+TypeError: add_integer() missing 1 required positional argument: 'a'
