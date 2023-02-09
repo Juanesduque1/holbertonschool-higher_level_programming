@@ -16,12 +16,12 @@
 >>> add_integer("hello", 5)
 Traceback (most recent call last):
 ...
-TypeError: a must be integer
+TypeError: a must be an integer
 
 >>> add_integer(5, "hello")
 Traceback (most recent call last):
 ...
-TypeError: b must be integer
+TypeError: b must be an integer
 
 >>> add_integer(float('inf'), 4)
 Traceback (most recent call last):
