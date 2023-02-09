@@ -50,8 +50,12 @@ class Rectangle:
 
     def __str__(self):
         """Method to print the rectangle with built-in implementation"""
+        string = ""
+        if self.__height == 0 or self.__width == 0:
+            return string
         for i in range(0, self.__height):
             for j in range(0, self.__width):
-                print("#", end="")
-            print()
-        return ""
+                string += "#"
+            if i != self.__height -1:
+                string += "\n"
+        return string
