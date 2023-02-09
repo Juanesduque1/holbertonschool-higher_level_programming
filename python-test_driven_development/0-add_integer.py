@@ -1,6 +1,8 @@
 #!/usr/bin/python3
+"""Function that adds two integers"""
+
+
 def add_integer(a, b=98):
-    """Function that adds two integers"""
     """
     Args:
         a = int
