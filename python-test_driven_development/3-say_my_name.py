@@ -16,9 +16,3 @@ def say_my_name(first_name, last_name=""):
     """Last name validation"""
     if not isinstance(last_name, str):
         raise TypeError("last_name must be a string")
-
-    """Only one argument validation"""
-    if last_name == "":
-        print(f"My name is {first_name}")
-    else:
-        print(f"My name is {first_name} {last_name}")
