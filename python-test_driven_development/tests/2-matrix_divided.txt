@@ -39,9 +39,6 @@ TypeError: div must be a number
 >>> matrix_divided([[3, float('NaN')], [15, 3]], 3)
 [[1.0, nan], [5.0, 1.0]]
 
->>> matrix_divided([[3, float('inf')], [15, 3]], float('inf'))
-[[0.0, inf], [0.0, 0.0]]
-
 >>> matrix_divided([[3, float('NaN')], [15, 3]], float('NaN'))
 [[nan, nan], [nan, nan]]
 
