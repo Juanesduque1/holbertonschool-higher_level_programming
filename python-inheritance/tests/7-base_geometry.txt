@@ -35,26 +35,26 @@ Test to check "integer_validator" function with 1 argument:
 
 Test to check "integer_validator" function:
     >>> bg = BaseGeometry()
-    >>> bg.integer_validator(“age”, 1)
+    >>> bg.integer_validator("age", 1)
 
 
 Test to check "integer_validator" function:
     >>> bg = BaseGeometry()
-    >>> bg.integer_validator(“age”, 0)
+    >>> bg.integer_validator("age", 0)
     Traceback (most recent call last):
     ...
     ValueError: age must be greater than 0
 
 Test to check "integer_validator" function:
     >>> bg = BaseGeometry()
-    >>> bg.integer_validator(“age”, -4)
+    >>> bg.integer_validator("age", -4)
     Traceback (most recent call last):
     ...
     ValueError: age must be greater than 0
 
 Test to check "integer_validator" function:
     >>> bg = BaseGeometry()
-    >>> bg.integer_validator(“age”, 4)
+    >>> bg.integer_validator("age", 4)
 
 Test to check "integer_validator" function:
     >>> bg = BaseGeometry()
