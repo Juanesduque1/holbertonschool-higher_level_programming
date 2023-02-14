@@ -1,0 +1,32 @@
+===============================
+ Test cases for task 1
+===============================
+
+>>> MyList = __import__('1-my_list').MyList
+
+>>> my_list = MyList()
+>>> isinstance(my_list, MyList)
+True
+
+>>> my_list = MyList()
+>>> my_list.append(1)
+>>> my_list.append(2)
+>>> my_list.print_sorted()
+[1, 2]
+
+>>> my_list = MyList()
+>>> my_list.append(2)
+>>> my_list.append(1)
+>>> my_list.print_sorted()
+[1, 2]
+
+>>> my_list = MyList()
+>>> my_list.append(2)
+>>> my_list.append(1)
+>>> my_list.append(-3)
+>>> my_list.print_sorted()
+[-3, 1, 2]
+
+>>> my_list = MyList()
+>>> print(str(my_list))
+[]
