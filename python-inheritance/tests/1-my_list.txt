@@ -36,7 +36,10 @@ True
 []
 
 >>> my_list = MyList()
->>> print(new_list)
-Traceback (most recent call last)
-...
-NameError: name 'new_list' is not defined
+>>> my_list.append(2)
+>>> my_list.append(1)
+>>> my_list.append(3)
+>>> my_list.print_sorted()
+[1, 2, 3]
+>>> print(my_list)
+[2, 1, 3]
