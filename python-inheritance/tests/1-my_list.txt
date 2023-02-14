@@ -9,6 +9,10 @@
 True
 
 >>> my_list = MyList()
+>>> print(str(my_list))
+[]
+
+>>> my_list = MyList()
 >>> my_list.append(1)
 >>> my_list.append(2)
 >>> my_list.print_sorted()
@@ -28,5 +32,11 @@ True
 [-3, 1, 2]
 
 >>> my_list = MyList()
->>> print(str(my_list))
+>>> my_list.print_sorted()
 []
+
+>>> my_list = MyList()
+>>> print(new_list)
+Traceback (most recent call last)
+...
+NameError: name 'new_list' is not defined
