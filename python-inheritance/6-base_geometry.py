@@ -8,6 +8,6 @@ class BaseGeometry:
         """Initialization of class"""
         pass
 
-    def area():
+    def area(*args):
         """Public instance to raise an error"""
         raise Exception("area() is not implemented")
