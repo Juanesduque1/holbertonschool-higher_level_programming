@@ -54,7 +54,10 @@ Test to check "integer_validator" function:
 
 Test to check "integer_validator" function:
     >>> bg = BaseGeometry()
-    >>> bg.integer_validator("age", 4)
+    >>> bg.integer_validator("age", "4")
+    Traceback (most recent call last):
+    ...
+    TypeError: age must be an integer
 
 Test to check "integer_validator" function:
     >>> bg = BaseGeometry()
