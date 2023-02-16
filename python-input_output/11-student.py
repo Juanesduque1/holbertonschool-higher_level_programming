@@ -26,6 +26,7 @@ class Student:
 
     def reload_from_json(self, json):
         """Public method to replace attributes of the Student instance"""
-        new_dict = self.__dict__
-        for i in new_dict:
-            new_dict[i] = json[i]
+        if json:
+            new_dict = self.__dict__
+            for i in new_dict.keys():
+                new_dict[i] = json[i]
