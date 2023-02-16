@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 """Module to add all arguments to a Python list, then save them to a file"""
-
-"""Imports for later usage"""
 import sys
 import json
 import os.path
