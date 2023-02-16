@@ -1,11 +1,13 @@
 #!/usr/bin/python3
-"""Module to add all arguments to a Python list, then save them to a file"""
+"""Script to add all arguments to a Python list, then save them to a file"""
 import sys
-import json
 import os.path
+
+"""Import of previous functions"""
 load_from_json_file = __import__('6-load_from_json_file').load_from_json_file
 save_to_json_file = __import__('5-save_to_json_file').save_to_json_file
 
+"""Creation of variables"""
 arguments = sys.argv
 filename = 'add_item.json'
 list = []
