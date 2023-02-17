@@ -1,5 +1,5 @@
 # Hello, World
-Project done during my **Software Engineering studies** at **Holberton School**. It aims to learn about variables, basics commands (print) and handle strings with **Python**.
+Project done during my **Software Engineering studies** at **Holberton School**. It aims to learn about variables, basics commands as `print` and handle strings in **Python**.
 
 ## Files
 | Filename | Description |

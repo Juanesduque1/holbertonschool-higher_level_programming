@@ -1,10 +1,10 @@
 # Import & modules
-Project done during my **Software Engineering studies** at **Holberton School**. It aims to learn about importing functions for their usage and creating modules in Python. Also using the builtin function `dir()` and using command line arguments within Python programs.
+Project done during my **Software Engineering studies** at **Holberton School**. It aims to learn about importing functions for their usage and creating modules in **Python**. Also using the builtin function `dir()` and using command line arguments within **Python** programs.
 
 ## Files
 | Filename | Description |
 | -------- | ----------- |
-| [`0-add.py`](./0-add.py) | Python program that imports `def add(a, b):` from the file `add_0.py` and prints the result of the addition `1 + 2 = 3` |
+| [`0-add.py`](./0-add.py) | Python program that imports `def add(a, b):` from the file `add_0.py` and prints the result of the addition `1 + 2 = 3`. |
 | [`1-calculation.py`](./1-calculation.py) | Python program that imports functions from the file [calculator_1.py](./calculator_1.py) and prints the result of the addition, subtraction, multiplication and division of `10` and `5`.|
 | [`2-args.py`](2-args.py) | Python program that prints the number of and list of its arguments. |
 | [`3-infinite_add.py`](./3-infinite_add.py) | Python program that prints the result of the addition of all its arguments. |
