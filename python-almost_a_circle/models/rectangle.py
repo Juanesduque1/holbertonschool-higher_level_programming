@@ -94,3 +94,10 @@ class Rectangle(Base):
         width = self.__width
         height = self.__height
         return f"[{name}] ({self.id}) {self.__x}/{self.__y} - {width}/{height}"
+
+    def update(self, *args):
+        """Public method to update attributes"""
+        attr_list = ["id", "width", "height", "x", "y"]
+
+        for i in range(len(args)):
+            setattr(self, attr_list[i], args[i])
