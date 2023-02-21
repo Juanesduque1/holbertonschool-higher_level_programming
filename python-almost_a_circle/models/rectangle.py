@@ -95,9 +95,22 @@ class Rectangle(Base):
         height = self.__height
         return f"[{name}] ({self.id}) {self.__x}/{self.__y} - {width}/{height}"
 
-    def update(self, *args):
+    def update(self, *args, **kwargs):
         """Public method to update attributes"""
         attr_list = ["id", "width", "height", "x", "y"]
+        if len(args) != 0:
+            for i in range(len(args)):
+                setattr(self, attr_list[i], args[i])
+        if len(kwargs) != 0:
+            for key, value in kwargs.items():
+                setattr(self, key, value)
 
-        for i in range(len(args)):
-            setattr(self, attr_list[i], args[i])
+    def to_dictionary(self):
+        """Public method to return a dictionary repr of the class"""
+        return {
+            "id": self.id,
+            "width": self.width,
+            "height": self.height,
+            "x": self.x,
+            "y": self.y
+        }
