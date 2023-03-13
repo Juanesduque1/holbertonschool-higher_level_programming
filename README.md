@@ -17,6 +17,7 @@ All of the following folders are projects done during this module:
 * [`Python - Everything is object`](./python-everything_is_object)
 * [`Python - Inheritance`](./python-inheritance)
 * [`Python - Input/Output`](./python-input_output)
+* [`Python - Almost a circle`](./python-almost_a_circle/)
 
 ## Author
 
