@@ -4,7 +4,7 @@
 let count = 0;
 
 exports.logMe = function (item) {
-	//Function that prints number of arguments already printed
-	console.log(count + ': ' + item)
-	count++;
-}
+  // Function that prints number of arguments already printed
+  console.log(count + ': ' + item);
+  count++;
+};
